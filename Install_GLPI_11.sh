@@ -25,7 +25,6 @@ sudo apt install -y \
     php8.3-fpm \
     php8.3-dom \
     php8.3-fileinfo \
-    php8.3-json \
     php8.3-simplexml \
     php8.3-xmlreader \
     php8.3-xmlwriter \
@@ -124,3 +123,4 @@ echo " INSTALAÇÃO FINALIZADA COM SUCESSO."
 echo " Acessar ao GLPI pelo seu navegador."
 echo " Paz & Bem ^.^"
 echo "#########################################################"
+
