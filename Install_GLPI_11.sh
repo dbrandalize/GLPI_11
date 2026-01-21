@@ -100,14 +100,15 @@ sudo chown -R www-data:www-data /var/www/glpi/
 
 
 # 12. Finalizar setup do glpi pela linha de comando
-sudo php /var/www/glpi/bin/console db:install \
-	--default-language=pt_BR \
-	--db-host=localhost \
-	--db-port=3306 \
-	--db-name=glpi \
-	--db-user=glpi \
-	--db-password=1cd73cddc8dad1fef981391f \
-	--no-interaction
+sudo php8.3 /var/www/glpi/bin/console db:install \
+    --default-language=pt_BR \
+    --db-host=localhost \
+    --db-port=3306 \
+    --db-name=glpi \
+    --db-user=glpi \
+    --db-password=1cd73cddc8dad1fef981391f \
+    --no-interaction \
+    --force
 
 
 # 13. Ajustes de Segurança
